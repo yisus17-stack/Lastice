@@ -1,0 +1,46 @@
+{
+  "placeholderImages": [
+    {
+      "id": "hero-glacier",
+      "description": "Paisaje masivo de glaciar ártico",
+      "imageUrl": "https://picsum.photos/seed/arctic1/1920/1080",
+      "imageHint": "arctic glacier"
+    },
+    {
+      "id": "polar-bear",
+      "description": "Oso polar en un pequeño bloque de hielo",
+      "imageUrl": "/oso-card.png",
+      "imageHint": "polar bear"
+    },
+    {
+      "id": "narwhal",
+      "description": "Narval nadando en aguas heladas",
+      "imageUrl": "/narval-card.png",
+      "imageHint": "narwhal whale"
+    },
+    {
+      "id": "arctic-fox",
+      "description": "Zorro ártico en la nieve",
+      "imageUrl": "/zorro-card.png",
+      "imageHint": "arctic fox"
+    },
+    {
+      "id": "cinematic-1",
+      "description": "Iceberg flotando en aguas azules profundas",
+      "imageUrl": "https://picsum.photos/seed/iceberg1/1200/800",
+      "imageHint": "iceberg ocean"
+    },
+    {
+      "id": "cinematic-2",
+      "description": "Interior de cueva de glaciar azul profundo",
+      "imageUrl": "https://picsum.photos/seed/icecave/1200/800",
+      "imageHint": "ice cave"
+    },
+    {
+      "id": "cinematic-3",
+      "description": "Vista aérea de capas de hielo derritiéndose",
+      "imageUrl": "https://picsum.photos/seed/meltingice/1200/800",
+      "imageHint": "melting ice"
+    }
+  ]
+}
