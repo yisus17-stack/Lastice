@@ -29,9 +29,7 @@ export default function PolarBearImpact() {
               <p className="leading-relaxed">
                 "Si el Ártico deja de ser el refrigerador del mundo, el equilibrio biológico de todas las latitudes entrará en un punto de no retorno. No estamos salvando el hielo, nos estamos salvando a nosotros mismos."
               </p>
-              <p className="text-[10px] font-black uppercase tracking-[0.2em] text-slate-400 mt-4">
-                — Informe de Telemetría Ártica 2026
-              </p>
+         
             </div>
           </div>
           
