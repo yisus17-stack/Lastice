@@ -7,8 +7,8 @@ import {
   Dialog,
   DialogContent,
   DialogTrigger,
+  DialogTitle,
 } from "@/components/ui/dialog"
-import { CheckCircle2, ShieldCheck } from "lucide-react"
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false)
@@ -29,7 +29,6 @@ export default function Navbar() {
     }
 
     window.addEventListener("scroll", handleScroll)
-
     return () => window.removeEventListener("scroll", handleScroll)
   }, [])
 
@@ -70,14 +69,21 @@ export default function Navbar() {
               </DialogTrigger>
 
               <DialogContent className="sm:max-w-[425px] rounded-[2rem] border-none shadow-2xl overflow-hidden">
+                
+                {/* 🔥 IMPORTANTE PARA RADIX */}
+                <DialogTitle className="sr-only">
+                  Confirmación de participación
+                </DialogTitle>
+
                 <div className="flex flex-col items-center text-center py-8 animate-in fade-in zoom-in duration-500">
-                 <div className="w-30 h-20  rounded-full flex items-center justify-center mb-6 overflow-hidden">
-                  <img
-                    src="/last-ice.svg"
-                    alt="Logo The Last Ice"
-                    className="w-30 h-20 object-contain"
-                  />
-                </div>
+
+                  <div className="w-32 h-20 flex items-center justify-center mb-6 overflow-hidden">
+                    <img
+                      src="/last-ice.svg"
+                      alt="Logo The Last Ice"
+                      className="w-full h-full object-contain"
+                    />
+                  </div>
 
                   <h3 className="text-2xl font-headline font-bold text-[#1e293b] mb-2">
                     ¡Ahora eres parte del cambio!
@@ -87,7 +93,6 @@ export default function Navbar() {
                     Tu apoyo ayuda a generar conciencia sobre el deshielo del Ártico
                     y el impacto del cambio climático en nuestro planeta.
                   </p>
-
                 </div>
               </DialogContent>
             </Dialog>
